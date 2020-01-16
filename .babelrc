@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "src": "./src",
+        "img": "./img",
+        "common": "./src/common",
+        "reducer": "./src/reducer",
+        "comps": "./src/components",
+        "constants": "./src/constants",
+        "utils": "./src/utils",
+        "screens": "./src/screens",
+        "navigationService": "./src/navigation/NavigationService"
+      }
+    }]
+  ]
+}
